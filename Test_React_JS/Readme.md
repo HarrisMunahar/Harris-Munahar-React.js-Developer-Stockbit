@@ -20,7 +20,7 @@ Installation:
 
 To Run Test Suite:  
 
-`npm test`  
+`npm test or yarn test`  
 
 To Start Server:
 
