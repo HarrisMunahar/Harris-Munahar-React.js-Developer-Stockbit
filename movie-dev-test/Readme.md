@@ -18,7 +18,7 @@ Clone down this repository. You will need `node` and `npm` installed globally on
 
 Installation:
 
-`npm install`  
+`npm install or yarn`  
 
 To Run Test Suite:  
 
@@ -26,11 +26,11 @@ To Run Test Suite:
 
 To Start Server:
 
-`npm start`  
+`npm start or yarn start`  
 
 To Visit App:
 
-`localhost:3000/ideas`  
+`localhost:3000`  
 
 ### Expectation
 
