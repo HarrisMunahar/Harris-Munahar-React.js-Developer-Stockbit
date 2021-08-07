@@ -9,9 +9,9 @@ Silahkan kelompokkan/group kata - kata di dalamnya sesuai dengan kelompok Anagra
 Catatan: tidak boleh menggunakan syntax es6 map, sort, reduce, find, filter
 
 ### Expected Outputs
-[
+- [
     ["kita", "atik", "tika"],
     ["aku", "kua"],
     ["makan"],
     ["kia"]
-]
+- ]
