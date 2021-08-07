@@ -1,4 +1,4 @@
-## Project Name & Pitch
+## Project Stockbit React Dev Test 
 
 #### MovieClip: 
 

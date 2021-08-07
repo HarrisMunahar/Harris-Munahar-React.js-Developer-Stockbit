@@ -2,6 +2,6 @@
 
 #### Folder Project:
 
-Folder Project React JS : "/Test_React_JS/movie-dev-test"
+Folder Project React JS : "/movie-dev-test"
 
 Folder Test Logic : "/Test_Logic"
