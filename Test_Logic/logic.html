@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+          var array = ['kita', 'atik', 'tika', 'aku', 'kia', 'makan', 'kua'] 
+
+
+      function groupAnagrams(strs) {
+        let sr = msort(strs)
+        let result = {};
+        for (let word of sr) {
+            let srt = msort(word.split(""))
+            let cleansed = srt.join("");
+            if (result[cleansed]) {
+              result[cleansed].push(word);
+            } else { 
+              result[cleansed] = [word];
+            }
+          }
+      return Object.values(result);
+      }
+
+
+      function msort(arr){
+          for(var i =0;i<arr.length;i++){
+              for(var j= i+1;j<arr.length;j++){
+                  if(arr[i]>arr[j]){
+                      var swap = arr[i];
+                      arr[i] = arr[j];
+                      arr[j] = swap;
+                  }
+              }
+          }
+      return arr;
+      }
+
+      document.getElementsByTagName("BODY")[0].innerHTML = JSON.stringify(groupAnagrams(array) ).replace(/],/g, '],<br>')
+
+
+      console.log(groupAnagrams(array))
+  </script>
+  </body>
+</html>
